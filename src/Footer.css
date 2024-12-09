@@ -1,0 +1,23 @@
+.home-footer {
+    background-color: #e6f7ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-footer p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.home-footer .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-footer .footer-nav a {
+    text-decoration: none;
+    color: #007acc;
+    font-size: 14px;
+}

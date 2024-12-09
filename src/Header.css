@@ -1,0 +1,203 @@
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6f7ff;
+    padding: 20px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo{
+    width: 140px;
+    margin-left: 10px;
+}
+
+/* Search Bar */
+.home-header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.home-header .search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 900px;
+    height: 40px;
+}
+
+.home-header .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007acc;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    height: 52px;
+    width: 50px;
+}
+
+/* Navigation */
+.home-header nav {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.home-header nav a {
+    text-decoration: none;
+    color: #007acc;
+    font-size: 20px;
+}
+
+/* Dropdown Menu */
+.home-header nav .dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    border: none;
+    background-color: #e6f7ff;
+    font-size: 18px;
+    color: #007acc;
+}
+
+.home-header nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    font-size: 10px;
+}
+
+.home-header nav .dropdown-content a {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    color: #007acc;
+}
+
+.home-header nav .dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.home-header nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Profile Icon */
+.profile-icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 1600px) {
+    .home-header {
+        padding: 20px 15px;
+    }
+
+    .home-header .logo {
+        font-size: 30px;
+    }
+
+    .home-header .search-bar input {
+        width: 700px;
+    }
+
+    .home-header nav {
+        gap: 50px;
+    }
+
+    .home-header nav a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .home-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .home-header .search-bar {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .home-header .search-bar input {
+        width: 100%;
+    }
+
+    .home-header nav {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .home-header nav a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-header .logo {
+        font-size: 25px;
+    }
+
+    .home-header .search-bar input {
+        width: 80%;
+    }
+
+    .home-header nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .home-header nav a {
+        font-size: 14px;
+    }
+
+    .profile-icon {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-header {
+        padding: 15px;
+    }
+
+    .home-header .logo {
+        font-size: 20px;
+    }
+
+    .home-header .search-bar input {
+        width: 100%;
+    }
+
+    .home-header .search-bar button {
+        width: auto;
+        padding: 8px;
+    }
+
+    .home-header nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .home-header nav a {
+        font-size: 12px;
+    }
+
+    .profile-icon {
+        font-size: 16px;
+    }
+}

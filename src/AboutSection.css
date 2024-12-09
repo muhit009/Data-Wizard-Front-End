@@ -1,0 +1,33 @@
+.container{
+    height: 95vh;
+}
+.about-section {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 70vh;
+}
+
+.about-section h2 {
+    font-size: 3rem;
+    color: #007acc;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+.about-section .highlight {
+    font-weight: bold;
+    color: #6a11cb;
+}
