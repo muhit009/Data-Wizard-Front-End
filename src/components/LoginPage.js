@@ -51,7 +51,7 @@ const LoginPage = () => {
             {/* Signup section */}
             <div className="signup-section">
                 <img src={logo} alt="App Logo" className="app-logo" />
-                <h1>Welcome to JobMatch</h1>
+                <h1>Welcome to JobScout.AI</h1>
                 <p>Don't have an account?</p>
                 <div className="signup-buttons">
                     <button className="signup-button" onClick={handleClickJobSeaker}>Sign Up as Job Seeker</button>

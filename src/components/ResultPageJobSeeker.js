@@ -6,7 +6,7 @@ function ResultPageJobSeeker() {
     // Example data to simulate a matched job
     const matchedJobs = [
         {
-            title: "Mobile developer",
+            title: "Data analyst",
             company: "Microsoft",
             description: "A short Job Description",
             matchPercentage: "85%",
